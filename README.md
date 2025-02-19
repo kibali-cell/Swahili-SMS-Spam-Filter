@@ -17,6 +17,13 @@ A full-stack application that uses machine learning to detect and filter spam SM
 - **Detailed Logging:**  
   Comprehensive logging for troubleshooting and monitoring.
 
+## Screenshots
+
+![Screenshot 1](./images/screenshot_1.png)
+![Screenshot 2](./images/screenshot_2.png)
+![Screenshot 3](./images/screenshot_3.png)
+
+
 ## Project Structure
 
 ```
