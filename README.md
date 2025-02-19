@@ -19,9 +19,9 @@ A full-stack application that uses machine learning to detect and filter spam SM
 
 ## Screenshots
 
-![Screenshot 1](./images/screenshot_1.png)
-![Screenshot 2](./images/screenshot_2.png)
-![Screenshot 3](./images/screenshot_3.png)
+![Screenshot 1](./Images/screenshot_1.png)
+![Screenshot 2](./Images/screenshot_2.png)
+![Screenshot 3](./Images/screenshot_3.png)
 
 
 ## Project Structure
