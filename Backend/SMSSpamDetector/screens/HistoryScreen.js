@@ -1,4 +1,3 @@
-// screens/HistoryScreen.js
 import React, { useState, useEffect, useContext } from 'react';
 import { View, Text, FlatList, StyleSheet, TouchableOpacity, Alert } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -50,7 +49,7 @@ export default function HistoryScreen() {
   const renderItem = ({ item }) => (
     <View style={[styles.historyItem, { backgroundColor: item.result.is_spam ? '#ffebee' : '#e8f5e9' }]}>
       <Text style={styles.senderText}>{language === 'sw' ? 'Kutoka:' : 'From:'} {item.sender}</Text>
-      <Text style={[styles.messageText, { color: dark ? '#000' : '#fff' }]} numberOfLines={2}>
+      <Text style={[styles.messageText, { color: '#000'  }]} numberOfLines={2}>
         {item.message}
       </Text>
       <View style={styles.resultRow}>
