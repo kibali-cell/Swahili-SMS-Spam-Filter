@@ -23,6 +23,10 @@ A full-stack application that uses machine learning to detect and filter spam SM
 ![Screenshot 2](./Images/screenshot_2.jpg)
 ![Screenshot 3](./Images/screenshot_3.jpg)
 
+<img src="./images/screenshot_1.jpg" alt="Screenshot 1" width="300" />
+<img src="./images/screenshot_2.jpg" alt="Screenshot 2" width="300" />
+<img src="./images/screenshot_3.jpg" alt="Screenshot 3" width="300" />
+
 
 ## Project Structure
 
