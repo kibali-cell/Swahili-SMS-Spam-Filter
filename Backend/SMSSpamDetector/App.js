@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import HomeScreen from './screens/HomeScreen';
-import HistoryScreen from './screens/HistoryScreen';
-import SettingsScreen from './screens/SettingsScreen';
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
-
-const Stack = createNativeStackNavigator();
+import AppStack from './AppStack';
 
 export default function App() {
   return (
@@ -16,25 +11,9 @@ export default function App() {
       <ThemeProvider>
         <LanguageProvider>
           <NavigationContainer>
-            <Stack.Navigator>
-              <Stack.Screen 
-                name="Home" 
-                component={HomeScreen}
-                options={{ title: 'Habari Karibu, Kikagua SMS' }}
-              />
-              <Stack.Screen 
-                name="History" 
-                component={HistoryScreen}
-                options={{ title: 'Angalia Historia' }}
-              />
-              <Stack.Screen 
-                name="Settings" 
-                component={SettingsScreen}
-                options={{ title: 'Mipangilio' }}
-              />
-            </Stack.Navigator>
+            <AppStack />
           </NavigationContainer>
-      </LanguageProvider>
+        </LanguageProvider>
       </ThemeProvider>
     </SafeAreaProvider>
   );
